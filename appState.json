@@ -1,0 +1,126 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6926cd28-42e2-483e-ac83-0de2e940d178": {
+        "id": "6926cd28-42e2-483e-ac83-0de2e940d178",
+        "parent": null,
+        "name": "prodsmoke2201",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ae97aac8-52c6-4fa8-a2d6-783e86ce9f0c",
+          "fefd49ad-3c35-4816-aab8-3cf117b7f0d7"
+        ],
+        "isRemovable": false,
+        "filePath": "prodsmoke2201"
+      },
+      "ae97aac8-52c6-4fa8-a2d6-783e86ce9f0c": {
+        "id": "ae97aac8-52c6-4fa8-a2d6-783e86ce9f0c",
+        "parent": "6926cd28-42e2-483e-ac83-0de2e940d178",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "prodsmoke2201/function.js",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "96d6a77b-87dc-455f-84c1-cb8841649987": {
+        "id": "96d6a77b-87dc-455f-84c1-cb8841649987",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "97951845-79db-4dc8-8bb1-b1145bc52f10": {
+        "id": "97951845-79db-4dc8-8bb1-b1145bc52f10",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "fefd49ad-3c35-4816-aab8-3cf117b7f0d7": {
+        "id": "fefd49ad-3c35-4816-aab8-3cf117b7f0d7",
+        "parent": "6926cd28-42e2-483e-ac83-0de2e940d178",
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "prodsmoke2201/Authorizer.js"
+      }
+    },
+    "rootNode": "6926cd28-42e2-483e-ac83-0de2e940d178",
+    "openFiles": [
+      "ae97aac8-52c6-4fa8-a2d6-783e86ce9f0c"
+    ],
+    "currentFileId": "ae97aac8-52c6-4fa8-a2d6-783e86ce9f0c",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "storagehirutest01": {
+        "name": "storagehirutest01",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "hirutest01"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "javascript",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "prodsmoke2201",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1579680284859
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "prodsmoke2201",
+      "url": "https://github.com/HirudineeADRT/prodsmoke2201"
+    }
+  }
+}
